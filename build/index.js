@@ -1,2 +1,8 @@
 "use strict";
-console.log('Hit there');
+var Sorter = /** @class */ (function () {
+    function Sorter(collection) {
+        this.collection = collection;
+    }
+    Sorter.prototype.sort = function () { };
+    return Sorter;
+}());
